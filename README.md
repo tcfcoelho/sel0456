@@ -258,3 +258,12 @@ idf.py -p /dev/ttyUSB0 flash monitor
 ## Aula 13
 
 A aula consiste em uma atividade que será realizada pelos alunos. O exercício da aula 13 encontra-se na pasta [exerc-1](./exerc-1), ver [README](./exerc-1/README.md).
+
+## Aula 14
+
+Análise da atividade da aula anterior.
+
+- **Não reinvente a roda!** Use bibliotecas
+- Sempre dê preferência à bibliotecas padrão: um maior número de programadores a usa, com certeza; já foram extensamente testadas.
+- Aprender uma linguagem de programação não se resume à sintaxe e tipos de dados, é essenscial o domínio da biblioteca padrão da linguagem.
+
