@@ -7,10 +7,13 @@ ALL = sort
 all: $(ALL)
 
 sort: sort.c
-	$(GCC) -o $@ $^ $(CFLAGS)	 $(LDFLAGS)
+	$(GCC) -o $@  $^ $(CFLAGS) $(LDFLAGS)
+
+%.s: %.c
+	$(GCC) $(CFLAGS) -S $<
 
 clean:
-	rm -rf *~ *.o
+	rm -f *.o *.s a.out
 
 distclean: clean
-	rm -rf $(ALL)
+	rm -r $(ALL)
