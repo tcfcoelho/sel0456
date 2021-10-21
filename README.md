@@ -261,10 +261,35 @@ A aula consiste em uma atividade que será realizada pelos alunos. O exercício 
 
 ## Aula 14
 
-Análise da atividade da aula anterior.
+### Análise da atividade da aula anterior.
 
 - **Não reinvente a roda!** Use bibliotecas
 - Sempre dê preferência às bibliotecas padrão: um maior número de programadores a usa, com certeza, conferindo maior legibilidade e portabilidade ao seu código; já foram extensamente testadas, apresentando uma probabilidade muito menor de possuírem *bugs*.
 - Dominar uma linguagem de programação não se resume à sintaxe e tipos de dados, é essencial saber utilizar a biblioteca padrão da linguagem.
 
 Com esses conceitos em mente, refaça o exercício 1 (mas agora na pasta [exerc-2](./exerc-2)), utilizando a [GLIB](https://docs.gtk.org/glib/index.html). Essa pasta contém um código exemplo em [sort.c](./exerc-2/sort.c).
+
+## Aula 15
+
+### Atividade da aula
+
+Refazer a tarefa das aulas anteriores em C++, na pasta exerc-3 e utilizando `cmake`, que já foi criado. Após criar o arquivo `sort.cpp`, utilize:
+
+```bash
+$ cmake -B build
+```
+
+somente uma vez, após isso, utilize somente:
+
+```bash
+$ make -C build
+$ build/sort
+```
+
+Não se esqueça: utilize a biblioteca padrão C++ [`stdlibc++`](https://gcc.gnu.org/onlinedocs/libstdc++/)!
+
+**Alternativa:** refaça em Python, ou outra linguagem de alto nível.
+
+
+
+
